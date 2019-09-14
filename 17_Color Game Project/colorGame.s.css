@@ -1,0 +1,35 @@
+body{
+    background-color: #232323;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;  /* content is empty so add some padding, this will show something */
+    float: left;
+    margin: 1.66%;
+}
+
+#container{
+    margin: 0 auto;  /* top&bottom = 0 margin, left&right = auto(same size)*/
+    max-width: 600px;
+}
+
+h1{
+    color:white;
+}
+/* span in here is more specific,targeting element itself rather than parent inherite color 
+span{
+    color: white;
+} */
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    background: blue;
+}
